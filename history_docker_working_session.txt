@@ -1,0 +1,1000 @@
+  231  ls
+  232  nano AddressbookUI.java 
+  233  clear
+  234  nano AddressbookUI.java 
+  235  git commit -m "Title change 2"
+  236  got add -A
+  237  git add -A
+  238  git commit -m "Title change 2"
+  239  git push -u origin master
+  240  ls
+  241  cp /var/lib/jenkins/workspace/addrbook-package/target/addressbook-2.0.war /home
+  242  cd /home/
+  243  ls
+  244  tar -xvf addressbook-2.0.war 
+  245  jar -xvf addressbook-2.0.war 
+  246  ls
+  247  cd WEB-INF/
+  248  ls
+  249  cd classes/
+  250  ls
+  251  cd com/
+  252  ls
+  253  cd vaadin/
+  254  ls
+  255  cd tutorial/
+  256  ls
+  257  cd addressbook/
+  258  ls
+  259  cat AddressbookUI.class 
+  260  clear
+  261  ls
+  262  cd ..
+  263  ls
+  264  cd vaadin/
+  265  ls
+  266  pwd
+  267  ls
+  268  cd tutorial/
+  269  ls
+  270  cd addressbook/
+  271  ls
+  272  cd ..
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd lib/
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd ..
+  281  ls
+  282  rm -rf META-INF
+  283  cd WEB-INF/
+  284  ls
+  285  cd classes/
+  286  ls
+  287  cd com/
+  288  ls
+  289  cd vaadin/
+  290  ls
+  291  cd tutorial/
+  292  ls
+  293  cd addressbook/
+  294  ls
+  295  cd ..
+  296  ls
+  297  rm -rf WEB-INF
+  298  ls
+  299  rm addressbook-2.0.war 
+  300  ls
+  301  cd osadmin/
+  302  ls
+  303  cd ..
+  304  ls
+  305  clear
+  306  pwd
+  307  clear
+  308  pwd
+  309  clear
+  310  pwd
+  311  ls
+  312  clear
+  313  ls
+  314  cd /opt
+  315  ls
+  316  cd github/
+  317  ls
+  318  cd projects/
+  319  ls
+  320  cd addressbook/
+  321  ls
+  322  cd src/
+  323  ls
+  324  cd main/
+  325  ls
+  326  cd java/
+  327  ls
+  328  cd com/
+  329  ls
+  330  cd vaadin/
+  331  ls
+  332  cd tutorial/
+  333  ls
+  334  cd addressbook/
+  335  ls
+  336  nano AddressbookUI.java 
+  337  ls
+  338  ls -ah
+  339  cd ..
+  340  ls
+  341  cd /opt/github/
+  342  ls
+  343  cd projects/
+  344  ls
+  345  cd addressbook/
+  346  ls
+  347  ls -l
+  348  ls -ah
+  349  git add -A
+  350  nano src/main/java/com/vaadin/tutorial/addressbook/AddressbookUI.java 
+  351  git add -A
+  352  git commit -m "Change 3"
+  353  git push -u origin master
+  354  nano src/main/java/com/vaadin/tutorial/addressbook/AddressbookUI.java 
+  355  git add -A
+  356  git commit -m "Change 4"
+  357  git push -u origin master
+  358  clear
+  359  ls /var/lib/jenkins/workspace/addrbook-package/target/
+  360  ls -l
+  361  ls /var/lib/jenkins/workspace/addrbook-package/target/ -l
+  362  cd addressbook_screenshot.png 
+  363  cd addressbook-2.0
+  364  rm -rf /var/lib/jenkins/workspace/addrbook-package/target/
+  365  ls /var/lib/jenkins/workspace/addrbook-package/target/ -l
+  366  ls /var/lib/jenkins/workspace/
+  367  rm -rf /var/lib/jenkins/workspace/*.*
+  368  ls /var/lib/jenkins/workspace/
+  369  rm -rf /var/lib/jenkins/workspace/*.*
+  370  rm -rf /var/lib/jenkins/workspace
+  371  ls /var/lib/jenkins/workspace/
+  372  ls /var/lib/jenkins/workspace/addrbook-deploy
+  373  ls
+  374  ls /var/lib/jenkins/workspace/addrbook-deploy
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd addressbook/
+  379  ;s
+  380  ls
+  381  ls /var/lib/jenkins/workspace/addrbook-deploy
+  382  ls /var/lib/jenkins/workspace/
+  383  cd addrbook-deploy
+  384  ls /var/lib/jenkins/workspace/
+  385  ls /var/lib/jenkins/workspace/ -l
+  386  init 6
+  387  systemctl status jenkins
+  388  ls /var/lib/jenkins/workspace/addrbook-package/target/addressbook-2.0.war
+  389  ls /var/lib/jenkins/workspace/addrbook-package/target/addressbook-2.0.war -l
+  390  yum update jenkins
+  391  systemctl restart jenkins
+  392  systemctl status jenkins
+  393  ls
+  394  pwd
+  395  ls /var/lib/jenkins/workspace/addrbook-package/target/addressbook-2.0.war
+  396  ls /var/lib/jenkins/workspace/
+  397  cd /var/lib/jenkins/workspace/
+  398  ls
+  399  addrbook-deploy/
+  400  ls
+  401  cd addrbook-deploy/
+  402  ls
+  403  ls -al
+  404  cd ..
+  405  ls -l
+  406  ls
+  407  ls -l
+  408  cd addressbook-deploy/
+  409  ls
+  410  ls -l
+  411  cd ..
+  412  clear
+  413  ls
+  414  rm -rf addrbook-deploy
+  415  rm -rf addressbook-deploy
+  416  ls
+  417  cd ..
+  418  ls
+  419  cd /opt/github/
+  420  ls
+  421  cd projects/
+  422  ls
+  423  cd addressbook/
+  424  ls
+  425  nano pom.xml
+  426  cd src
+  427  ls
+  428  cd main/
+  429  ls
+  430  cd ..
+  431  ls
+  432  systemctl statu jenkins
+  433  systemctl status jenkins
+  434  cd /usr/lib/jenkins
+  435  ls
+  436  cd ..
+  437  ls
+  438  cd ..
+  439  ls
+  440  which jenkins
+  441  whereis jenkins
+  442  cd /usr/lib/jenkins/
+  443  ls
+  444  clear
+  445  cd $JENKINS_HOME/plugins
+  446  systemctl restart jenkins
+  447  systemctl statu jenkins
+  448  systemctl status jenkins
+  449  init 0
+  450  df -k
+  451  clear
+  452  pwd
+  453  clear
+  454  mvn 
+  455  where mvn
+  456  rpm -q maven
+  457  which mvn
+  458  rpm -qa maven
+  459  yum install maven
+  460  clear
+  461  cd                       3.13-6.el7                                                base                           376 k
+  462  cd /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin
+  463  ls
+  464  ls -l
+  465  cd ..
+  466  ls
+  467  pwd
+  468  cd /opt/github/
+  469  ls
+  470  cd projects/
+  471  ls
+  472  cd addressbook/
+  473  ls
+  474  nano pom.xml 
+  475  git Add -A
+  476  git add -A
+  477  git commit -m "Add tomcat config to maven"
+  478  git push -u origin master
+  479  clear
+  480  <plugin>
+  481      <groupId>org.apache.tomcat.maven</groupId>
+  482      <artifactId>tomcat7-maven-plugin</artifactId>
+  483      <version>2.2</version>
+  484      <configuration>
+  485       <url>http://localhost:8080/manager/text</url>
+  486       <username>joe</username>
+  487       <password>joe</password>
+  488      </configuration>
+  489  clear
+  490  ls
+  491  hich mvn
+  492  which mvn
+  493  cd /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin
+  494  ls
+  495  cd ..
+  496  ls
+  497  yum install maven
+  498  ls -l /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin
+  499  which mvn
+  500  ls /usr/bin/mvn
+  501  ls /usr/bin/mvn -l
+  502  rpm -q maven
+  503  pwd
+  504  cd /opt/github/
+  505  ls
+  506  cd projects/
+  507  cd addressbook/
+  508  ls
+  509  nano pom.xml 
+  510  systemctl status maven
+  511  systemctl status mvn
+  512  rpm -q maven
+  513  ls -l /usr/share/maven/
+  514  ls -l /usr/share/maven/bin
+  515  clear
+  516  ls /usr/share/maven
+  517  cd /usr/share/maven
+  518  ls
+  519  cd conf/
+  520  ls
+  521  nano settings.xml 
+  522  df -k
+  523  clear
+  524  systemctl status jenkins
+  525  mvn
+  526  clear
+  527  mvn -version
+  528  clear
+  529  systemctl status puppetserver.service
+  530  systemctl enable puppetserver.service
+  531  systemctl status puppetserver.service
+  532  systemctl status puppet-server.service
+  533  systemctl status puppetserver.service
+  534  systemctl start puppetserver.service
+  535  journalctl -xe
+  536  netstat -antp | grep 8140
+  537  systemctl status puppet
+  538  systemctl enable puppet
+  539  systemctl status puppet
+  540  systemctl start puppet
+  541  systemctl status puppet
+  542  netstat -antp | grep 8140
+  543  systemctl status puppetserver.service
+  544  kill -3 943
+  545  netstat -antp | grep 8140
+  546  systemctl status puppetserver.service
+  547  systemctl start puppetserver.service
+  548  journalctl -xe
+  549  init 6
+  550  init 0
+  551  clear
+  552  pwd
+  553  clear
+  554  pwd
+  555  clear
+  556  systemctl status puppetserver.service
+  557  systemctl start puppetserver.service
+  558  systemctl status puppetserver.service
+  559  systemctl restart puppetserver.service
+  560  journalctl -xe
+  561  systemctl status puppetserver.service
+  562  journalctl -xe
+  563  init 0
+  564  free -h
+  565  systemctl status puppetserver.service
+  566  systemctl enable puppetserver.service
+  567  systemctl status puppetserver.service
+  568  free -h
+  569  clear
+  570  journalctl -xe
+  571  clear
+  572  systemctl status puppetserver.service
+  573  systemctl restart puppetserver.service
+  574  journalctl -xe
+  575  systemctl restart puppetserver.service
+  576  systemctl status puppetserver.service
+  577  free
+  578  free -h
+  579  init 0
+  580  clear
+  581  systemctl status puppetserver.service
+  582  systemctl restart puppetserver.service
+  583  puppet master --verbose --no-daemonize
+  584  rm -rf /var/run/puppet/master.pid
+  585  puppet master --verbose --no-daemonize
+  586  netstat -antp | grep 8140
+  587  kill -3 935
+  588  puppet master --verbose --no-daemonize
+  589  nano /etc/puppet/manifests/site.pp
+  590  puppet master --verbose --no-daemonize
+  591  nano /etc/puppet/manifests/site.pp
+  592  puppet master --verbose --no-daemonize
+  593  systemctl status puppetserver.service
+  594  systemctl restart puppetserver.service
+  595  systemctl status puppetserver.service
+  596  clear
+  597  systemctl status puppetserver.service
+  598  clear
+  599  ssh wslinux01.rkad.com
+  600  clear
+  601  docker
+  602  docker info
+  603  clear
+  604  docker info
+  605  clear
+  606  docket images 
+  607  docker images 
+  608  clar
+  609  clear
+  610  docker images 
+  611  cd /var/lib/jenkins/
+  612  ls
+  613  cd workspace/
+  614  ls
+  615  cd addrbook-deploy/
+  616  ls
+  617  ls -l
+  618  ls
+  619  cd ..
+  620  cd..
+  621  pwd
+  622  cd /opt/github/
+  623  ls
+  624  cd projects/
+  625  ls
+  626  cd addressbook/
+  627  ls
+  628  cd src
+  629  ls
+  630  cd main/
+  631  cd ..
+  632  ls
+  633  nano src/main/java/com/vaadin/tutorial/addressbook/AddressbookUI.java 
+  634  git add -A
+  635  git commit -m "First sucessfull devops deploy v1.0"
+  636  git push -u origin master
+  637  clear
+  638  nano src/main/java/com/vaadin/tutorial/addressbook/AddressbookUI.java 
+  639  git add -A
+  640  git commit -m "First sucessfull devops deploy v1.0"
+  641  git push -u origin master
+  642  git list remote
+  643  git remote -v
+  644  clear
+  645  git remote -v
+  646  free -h
+  647  df-k
+  648  df -k
+  649  clear
+  650  systemctl status jenkins
+  651  systemctl status puppetserver.service
+  652  systemctl restart puppetserver.service
+  653  clear
+  654  systemctl status puppetserver.service
+  655  systemctl restart puppetserver.service
+  656  systemctl status puppetserver.service
+  657  clear
+  658  systemctl status puppetserver.service
+  659  free -m
+  660  free -h
+  661  netstat -an | grep 8140
+  662  netstat -antp | grep 8140
+  663  kill -3 938
+  664  netstat -antp | grep 8140
+  665  systemctl start puppetserver.service
+  666  systemctl status puppetserver.service
+  667  clear
+  668  df -k
+  669  clear
+  670  cd /
+  671  clear
+  672  ls
+  673  cd /opt
+  674  cd github/
+  675  ls
+  676  cd /etc/puppet
+  677  ls
+  678  cat fileserver.conf 
+  679  ls
+  680  cd files
+  681  mkdir files
+  682  ls
+  683  cd files
+  684  ls
+  685  mkdir tomcat
+  686  cd ..
+  687  ls
+  688  ls -ah
+  689  scp root@wslinux01
+  690  ssh root@wslinux01
+  691  ssh root@wslinux01.rkad.com
+  692  clear
+  693  cd files
+  694  cd tomcat/
+  695  ls
+  696  scp -r root@wslinux01.rkad.com:/opt/tomcat .
+  697  clear
+  698  scp -r root@wslinux01.rkad.com:/opt/tomcat .
+  699  ls
+  700  rm -rf tomcat
+  701  ls
+  702  cd ..
+  703  clear
+  704  scp -r root@wslinux01.rkad.com:/opt/tomcat .
+  705  df -k
+  706  ls
+  707  ls -l
+  708  cd ..
+  709  cd puppet
+  710  ls
+  711  cd files
+  712  ls
+  713  scp root@wslinux01.rkad.com:/etc/systemd/system/tomcat.service .
+  714  ls
+  715  cd ..
+  716  git add -A
+  717  git commit -m "Added tomcat working config folder and tomcat service file to be placed at /etc/systemd/system/tomcat.service"
+  718  la
+  719  ls
+  720  git push -u origin master
+  721  init 0
+  722  watch
+  723  watch tail -10 /var/log/messages
+  724  docket info
+  725  docker info
+  726  docker images
+  727  clear
+  728  docker images
+  729  docker images help
+  730  docker images 
+  731  docker help
+  732  docker 
+  733  docker images
+  734  docker help
+  735  docker images
+  736  docker rmi 
+  737  docker images
+  738  clear
+  739  docker images
+  740  docker help
+  741  clear
+  742  docker images
+  743  docker pull docker.io/ubuntu
+  744  docker help
+  745  docker help start
+  746  docker images
+  747  clear
+  748  docker images
+  749  clear
+  750  docker start ubuntu -t
+  751  docker start ubuntu -i
+  752  docker images
+  753  docker start docker.io/ubuntu -i
+  754  clear
+  755  docker images
+  756  docker s
+  757  docker ps 
+  758  docker ps -a
+  759  clear
+  760  docker images
+  761  docker run 452a96d81c30 -name ubuntu -i
+  762  docker run 452a96d81c30 -name u
+  763  clear
+  764  docker 
+  765  docker run 452a96d81c30 --name ubuntu-docker1
+  766  docker run 452a96d81c30 -i
+  767  docker ps
+  768  docker ps -a
+  769  docker rm ebc03afe8f4a
+  770  docker rm -a
+  771  docker rm --help
+  772  docker rm 45bd630bb08f
+  773  docker rm eae24db9dc29
+  774  clear
+  775  docker ps -a
+  776  docker rm a206edb40800
+  777  docker rm b4bde6d61e54
+  778  clear
+  779  docker ps -a
+  780  clear
+  781  docker ps -a
+  782  docker images
+  783  docker run 452a96d81c30 --it
+  784  docker run 452a96d81c30
+  785  docker ps -a
+  786  docker rm d4ba901f11e1
+  787  docker rm 7f223deb2751
+  788  clear
+  789  docker ps -a
+  790  clear
+  791  docker ps -a
+  792  clear
+  793  docker images
+  794  docker run -it 452a96d81c30
+  795  docker images
+  796  docker ps -a
+  797  docker start 18b3e0cdb0f9
+  798  docker ps -a
+  799  docker stop 18b3e0cdb0f9
+  800  docker start 18b3e0cdb0f9
+  801  docker ps -a
+  802  clear
+  803  docker ps -a
+  804  docker rm 18b3e0cdb0f9
+  805  docker stop 18b3e0cdb0f9
+  806  docker rm 18b3e0cdb0f9
+  807  clear
+  808  docker ps -a
+  809  clear
+  810  docker images
+  811  docker run -d -it --name:my_container 452a96d81c30
+  812  docker run --help
+  813  clear
+  814  docker run -d --name:my_container 452a96d81c30
+  815  docker run -d 452a96d81c30 --name:my_container
+  816  docker run --name:my_container -d 452a96d81c30
+  817  docker run -d --name:my_container 452a96d81c30
+  818  docker run -d --name my_container 452a96d81c30
+  819  docker ps -a
+  820  docker rm 34f5cb8de257
+  821  docker rm 8b60a64e15ca
+  822  clear
+  823  docker images
+  824  docker run -d --name my_container 452a96d81c30
+  825  docker ps -a
+  826  docker start 18a062afee3d
+  827  docker ps 
+  828  docker ps -a
+  829  docker run 18a062afee3d
+  830  docker start 18a062afee3d
+  831  docker ps -a
+  832  docker start 18a062afee3d
+  833  docker start my_container
+  834  docker ps -a
+  835  docker run  my_container
+  836  clear
+  837  docker ps -a
+  838  docker run
+  839  docker ps -a
+  840  docker start 18a062afee3d
+  841  docker logs tail 100
+  842  docker logs --tail 100
+  843  docker logs 
+  844  docker logs --help
+  845  docker logs 18a062afee3d
+  846  docker start 18a062afee3d
+  847  docker logs 18a062afee3d
+  848  docker rm 18a062afee3d
+  849  docker ps -a
+  850  docker run -d --name my_container 452a96d81c30
+  851  docker ps -a
+  852  docker start b8f2fd6f8b5c
+  853  docker ps -a
+  854  docker exec -it my_container
+  855  docker ps -a
+  856  docker rm b8f2fd6f8b5c
+  857  docker ps -a
+  858  docker images
+  859  clear
+  860  docker images
+  861  docker run -it 452a96d81c30
+  862  docker images
+  863  docker ps -a
+  864  docker exec -it c98bc7b03264 bash
+  865  docker start c98bc7b03264
+  866  docker ps -a
+  867  docker attach 
+  868  docker attach help
+  869  docker attach --help
+  870  clear
+  871  docker images
+  872  docker ps -a
+  873  docker rm c98bc7b03264
+  874  docker stop c98bc7b03264
+  875  docker rm c98bc7b03264
+  876  docker ps -a
+  877  clear
+  878  docker images
+  879  docker -d --name my_container 452a96d81c30
+  880  clear
+  881  docker images
+  882  docker run -d --name my_container 452a96d81c30
+  883  docker ps -a
+  884  docker --attach b7de00289fd1 start
+  885  docker --attach b7de00289fd1
+  886  docker run -d --name my_container 452a96d81c30
+  887  docker ps -a
+  888  docker ps
+  889  docker start b7de00289fd1 
+  890  docker ps
+  891  docker ps -a
+  892  docker attach b7de00289fd1
+  893  docker start b7de00289fd1
+  894  docker attach b7de00289fd1
+  895  docker start b7de00289fd1
+  896  docker ps -a
+  897  docker image
+  898  docker images
+  899  docker ps
+  900  docker images
+  901  docker ps -a
+  902  docker start -i b7de00289fd1
+  903  docker ps -a
+  904  docker ps 
+  905  docker start -it b7de00289fd1
+  906  docker start -i -t b7de00289fd1
+  907  docker logs --details b7de00289fd1
+  908  docker start -i -t b7de00289fd1
+  909  docker logs --details b7de00289fd1
+  910  tail -100 /var/log/messages
+  911  clear
+  912  docker ps -a
+  913  docker images
+  914  docker -d --name mycentos ff426288ea90
+  915  docker run -d --name mycentos ff426288ea90
+  916  docker ps -a
+  917  docker start 0ad6c9271a93
+  918  docker ps -a
+  919  tail -100 /var/log/messages
+  920  ifconfig -a
+  921  service restart docker
+  922  systemctl stop docker
+  923  systemctl start docker
+  924  ifconfig -a
+  925  docker ps -a
+  926  docker start 0ad6c9271a93
+  927  docker ps -a
+  928  docker start 0ad6c9271a93
+  929  tail -100 /var/log/messages
+  930  yum update
+  931  clear
+  932  puppet agent -l
+  933  puppet agent status
+  934  puppet agent
+  935  puppet agent -t
+  936  ervice wicd stop
+  937  service wicd stop
+  938  systemctl wicd status
+  939  systemctl wicd start
+  940  systemctl status wicd
+  941  sudo service wicd stop
+  942  tail -100 /var/log/messages
+  943  docker ps -a
+  944  docker start 0ad6c9271a93
+  945  docker ps -a
+  946  tail -100 /var/log/messages
+  947  docker ps -a
+  948  docker start 0ad6c9271a93
+  949  docker start -it 0ad6c9271a93
+  950  docker start 0ad6c9271a93
+  951  yum oci-umount
+  952  yum -q oci-umount
+  953  rpm -q oci
+  954  rpm -q oci-umount
+  955  yum update oci-umount
+  956  systemctl restart docker
+  957  docker start 0ad6c9271a93
+  958  docker ps -a
+  959  docker ps 
+  960  clear
+  961  docker ps -a
+  962  docker run -it 0ad6c9271a93
+  963  docker start -i -t 0ad6c9271a93
+  964  docker rm 0ad6c9271a93
+  965  docker rm b7de00289fd1
+  966  clear
+  967  docker ps -a
+  968  docker images
+  969  docker run -it 452a96d81c30
+  970  docker ps -a
+  971  docker start c576c13cb225
+  972  docker ps -a
+  973  docker ps 
+  974  docker images
+  975  docker rm c576c13cb225
+  976  docker stop c576c13cb225
+  977  docker ps -a
+  978  docker start c576c13cb225
+  979  docker ps -a
+  980  clear
+  981  docker rm c576c13cb225
+  982  docker stop c576c13cb225
+  983  docker rm c576c13cb225
+  984  clear
+  985  docker ps -a
+  986  docker images
+  987  docker run -d --name my_container 452a96d81c30
+  988  docker ps -a
+  989  docker start 5a195803246e
+  990  docker ps -a
+  991  docker start 5a195803246e
+  992  rpm -q docker
+  993  yum update docker
+  994  clear
+  995  rpm -q veth
+  996  init 6
+  997  hostname
+  998  clear
+  999  docker ps -a
+ 1000  docker rm 
+ 1001  docker rm 5a195803246e
+ 1002  docker ps -a
+ 1003  hostname
+ 1004  docker images
+ 1005  clear
+ 1006  docker images
+ 1007  docker run -it -d -p 52022:22 452a96d81c30
+ 1008  docker ps -a
+ 1009  ssh localhost:52022
+ 1010  ssh devopsmaster:52022
+ 1011  ssh localhost:52022
+ 1012  ping localhost
+ 1013* 
+ 1014  ssh localhost:52022
+ 1015  docker ps -a
+ 1016  cat /etc/redhat-release 
+ 1017  docker inspect 254544d3a274
+ 1018  lynx 172.17.0.2
+ 1019  yum install lynx
+ 1020  lynx 172.17.0.2
+ 1021  ping 172.16.0.2
+ 1022  docker inspect 254544d3a274
+ 1023  ping 172.17.0.2
+ 1024  lynx 172.17.0.2:8080
+ 1025  clear
+ 1026  netstat
+ 1027  clear
+ 1028  docker ps -a
+ 1029  docker exec -it my_container "service start tomcat8"
+ 1030  docker run -it my_container
+ 1031  docker -it my_container
+ 1032  docker attach my_container
+ 1033  docker ps -a
+ 1034  cleat
+ 1035  docker attach 254544d3a274
+ 1036  docker ps -a
+ 1037  lynx 172.17.0.2:8080
+ 1038  clear
+ 1039  lynx 172.17.0.2:8080
+ 1040  docker ps -a
+ 1041  docker stop 254544d3a274
+ 1042  docker ps -a
+ 1043  dockr commit -help
+ 1044  docker commit -help
+ 1045  docker commit --help
+ 1046  clear
+ 1047  docker ps -a
+ 1048  docker commit -m "Ubuntu with tomcat" rkbsme/ubuntutomact
+ 1049  docker commit -m "Ubuntu with tomcat" 254544d3a274 rkbsme/ubuntutomact
+ 1050  docker ps -a
+ 1051  docker commit -m "Ubuntu with tomcat" 254544d3a274 rkbsme/ubuntutomcat8
+ 1052  docker images
+ 1053  cd /home
+ 1054  ls
+ 1055  cd osadmin/
+ 1056  l
+ 1057  ls
+ 1058  clear
+ 1059  mkdir docker
+ 1060  cd docker/
+ 1061  mkdir mydata
+ 1062  cd mydata/
+ 1063  ls
+ 1064  nano mydata.txt
+ 1065  dir
+ 1066  pwd
+ 1067  cd ..
+ 1068  ls
+ 1069  cd ..
+ 1070  ls
+ 1071  cat docker.bkp 
+ 1072  cd osadmin/
+ 1073* 
+ 1074  cd docker/
+ 1075  ls
+ 1076  clear
+ 1077  ls
+ 1078  docker ps -a
+ 1079  docker images
+ 1080  docker build .
+ 1081  pwd
+ 1082  ls
+ 1083  nano Dockerfile
+ 1084  cd .
+ 1085  ls
+ 1086  chmod 777 mydata/
+ 1087  id docker
+ 1088  ls
+ 1089  ls -l
+ 1090  cd mydata/
+ 1091  ls
+ 1092  ls -l
+ 1093  chmod 775 *
+ 1094  ls -l
+ 1095  clear
+ 1096  history
+ 1097  clear
+ 1098  systemctl selinux
+ 1099  systemctl selinux status
+ 1100  systemctl firewall.d status
+ 1101  systemctl selinux status
+ 1102  su -c "setenforce 0"
+ 1103  systemctl selinux status
+ 1104  history
+ 1105  cd ..
+ 1106  ls
+ 1107  nano Dockerfile 
+ 1108  docker inspect centos1
+ 1109  nano Dockerfile 
+ 1110  ls
+ 1111  tail /var/log/messages
+ 1112  df -k
+ 1113  clear
+ 1114  df -k
+ 1115  clear
+ 1116  nano Dockerfile 
+ 1117  cp Dockerfile Dockerfile1
+ 1118  nano Dockerfile
+ 1119  nano Dockerfile 
+ 1120  nano Dockerfile
+ 1121  cp Dockerfile centos_openssh.dockerfile
+ 1122  cp Dockerfile1 centos_httpd.dockerfile
+ 1123  ls
+ 1124  cat centos_httpd.dockerfile 
+ 1125  nano centos_httpd.dockerfile 
+ 1126  ls
+ 1127  clear
+ 1128  ls
+ 1129  docker images
+ 1130  docker rmi centosweb
+ 1131  docker images
+ 1132  docker rmi rkbsme/centosweb
+ 1133  docker image
+ 1134  clear
+ 1135  nano centos_httpd.dockerfile 
+ 1136  clear
+ 1137  ls
+ 1138  ls -l
+ 1139  pwd
+ 1140  clear
+ 1141  git
+ 1142  git show
+ 1143  df -k
+ 1144  fdisk -l
+ 1145  fdisk -lh
+ 1146  fdisk -l
+ 1147  df -k
+ 1148  clear
+ 1149  git show
+ 1150  clear
+ 1151  cat Dockerfile 
+ 1152  clear
+ 1153  nano centos_openssh.dockerfile 
+ 1154  nano Dockerfile 
+ 1155  nano centos_openssh.dockerfile 
+ 1156  nano centos_httpd.dockerfile 
+ 1157  ls
+ 1158  nano start-ssh.sh
+ 1159  nano centos_openssh.dockerfile 
+ 1160  nano Dockerfile 
+ 1161  nano centos_openssh.dockerfile 
+ 1162  nano Dockerfile 
+ 1163  clear
+ 1164  nano Dockerfile 
+ 1165  clear
+ 1166  nano Dockerfile 
+ 1167  docker ps -a
+ 1168  docker rm cc22827d386d
+ 1169  docker images
+ 1170  cat Dockerfile 
+ 1171  clear
+ 1172  docker ps -a
+ 1173  docker inspect 351e25cbdc77
+ 1174  ssh 172.17.0.3
+ 1175  ssh root@172.17.0.3
+ 1176  clear
+ 1177  docker ps -a
+ 1178  docker logs 351e25cbdc77
+ 1179  clear
+ 1180  nano Dockerfile 
+ 1181  clear
+ 1182  docker ps -a
+ 1183  docker attach b660ebde079c
+ 1184  clear
+ 1185  docker logs b660ebde079c
+ 1186  docker ps -a
+ 1187  docker exec centoswebssh_v1 ssh-keygen -A 
+ 1188  docker attach b660ebde079c
+ 1189  docker exec centoswebssh_v1 passwd root
+ 1190  docker attach b660ebde079c
+ 1191  docker ps -a
+ 1192  docker inspect b660ebde079c
+ 1193  ssh root@172.17.0.3
+ 1194  docker exec centoswebssh_v1 passwd root password
+ 1195  docker exec centoswebssh_v1 passwd root
+ 1196  docker exec -u 0 -it centoswebssh_v1 bash
+ 1197  docker ps -a
+ 1198  ssh root@172.17.0.3
+ 1199  docker ps -a
+ 1200  docker rm b660ebde079c
+ 1201  docker stop b660ebde079c
+ 1202  docker rm b660ebde079c
+ 1203  docker ps -a
+ 1204  docker inspect 302c754108d5
+ 1205  ssh root@172.16.0.3
+ 1206  ssh root@172.17.0.3
+ 1207  ssh-keygen -R 172.17.0.3
+ 1208  ssh root@172.17.0.3
+ 1209  clear
+ 1210  docker ps -a
+ 1211  docker exec -u 0 -it centoswebssh_v1 bash
+ 1212  clear
+ 1213  git init
+ 1214  ls
+ 1215  get add .
+ 1216  get add -A
+ 1217  git add -A
+ 1218  git add .
+ 1219  git add -A
+ 1220  git commit -a -m "RKs Docker templates version1"
+ 1221  git remote add origin https://github.com/rk-devops/dockerlib.git
+ 1222  git push -u origin master
+ 1223  git pull https://github.com/rk-devops/dockerlib.git
+ 1224  ls
+ 1225* git 
+ 1226  git commit -a -m "RKs Docker templates version1"
+ 1227  git add -A
+ 1228  git commit -a -m "RKs Docker templates version1"
+ 1229  git push -u origin master
+ 1230  history > history_docker_working_session.txt
