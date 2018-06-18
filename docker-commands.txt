@@ -1,0 +1,4 @@
+docker tag rkbsme/centoswebssh docker.io/rkbsme/images:centoswebssh
+docker login --username rkbsme --password R@ma1981
+docker push docker.io/rkbsme/images:centoswebssh
+
