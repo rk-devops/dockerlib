@@ -1,0 +1,16 @@
+Add all files to local repo
+# git add .
+# git add -A
+# git commit -a -m "Cloned and uploaded address book app"
+
+Create a repo on github.com with name “addrbook”
+git remote add origin https://github.com/rkdevopslab1/addrbook.git
+
+git push -u origin master
+
+--Save Credentials
+git config credential.helper store
+then 
+ git pull
+provide user-name and password and those details will be remembered later. The credentials are stored in the disk, with the disk permissions.
+
